@@ -1,0 +1,72 @@
+/*===========================
+  tabs css 
+===========================*/
+.tabs-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black);
+}
+@media (max-width: 767px) {
+  .tabs-title {
+    font-size: 22px;
+  }
+}
+
+
+/* tabs-six */
+.tabs-six {
+  border: none;
+  min-height: 90vh;
+  margin-top: 5rem;
+  font-family: var(--font-family-medium);
+}
+.tabs-six .nav {
+}
+.tabs-six .nav::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.tabs-six .nav a {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--charcoal-plus);
+  font-weight: 600;
+  padding: 13px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: block;
+  position: relative;
+}
+.tabs-six .nav a i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+.tabs-six .nav a.active {
+  color: var(--primary);
+  background: var(--tetra-mustard);
+  font-weight: 600;
+}
+.tabs-six .nav a.active::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 100%;
+  background: var(--tetra-mustard);
+  top: 0;
+  right: 0;
+}
+.tabs-six .tab-content .tab-text {
+  padding: 5px 15px;
+}
+.tabs-six .tab-content .tab-text .text {
+  color: var(--black);
+}
+
+/*# sourceMappingURL=tabs.css.map */

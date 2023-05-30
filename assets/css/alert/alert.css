@@ -1,0 +1,142 @@
+/*===========================
+  ALERTS css 
+===========================*/
+.alerts-title .title {
+
+    margin: 8px 0 !important;
+  }
+  
+ 
+  /* Alerts CSS */
+  .alert {
+    padding: 16px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    border: none !important;
+  }
+  .alert.alert-primary .alert-text{
+    font-size: 16px !important;
+    color: var(--black) !important;
+  }
+  .alert.alert-secondary .alert-text {
+    font-size: 16px !important;
+    color: var(--white) !important;
+  }
+  .alert.alert-error .alert-text{
+    font-size: 16px !important;
+    color: var(--white) !important
+  }
+  .alert.alert-success .alert-text{
+    font-size: 16px !important;
+    color: var(--black) !important
+  }
+  .alert-title-primary{
+    font-size: 16px !important;
+    color: var(--primary) !important;
+    font-weight: 700 !important;
+    margin: 8px 0;
+  }
+  .alert-title-secondary{
+    font-size: 16px !important;
+    color: var(--white) !important;
+    font-weight: 700 !important;
+    margin: 8px 0;
+  }
+  .alert-title-error{
+    font-size: 16px !important;
+    color: var(--white) !important;
+    font-weight: 700 !important;
+    margin: 8px 0;
+  }
+  .alert-title-success{
+    font-size: 16px !important;
+    color: var(--sat-green) !important;
+    font-weight: 700 !important;
+    margin: 8px 0;
+  }
+  .alert-simple{
+    background-color: var(--charcoal-lite);
+    color: var(--charcoal);
+    border-left: 3px solid var(--primary) !important;
+    border: 1px solid var(--black);
+  }
+  .alert::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+  }
+  .alert.alert-dismissible {
+    padding: 6px 24px 6px 0;
+  }
+  .alert.alert-dismissible .alert-icon {
+    padding: 0px 12px 0 36px;
+    line-height: 1;
+  }
+  .alert.alert-dismissible .alert-message h5 {
+    margin-bottom: 0px;
+  }
+  .alert.alert-dismissible .btn-close {
+    background: none;
+    padding: 1rem;
+  }
+  .alert.alert-dismissible .btn-close:focus-within, .alert.alert-dismissible .btn-close:focus {
+    box-shadow: none;
+  }
+  .alert.alert-dismissible .btn-close.dark i {
+    color: var(--black);
+  }
+  .alert.alert-dismissible .btn-close i {
+    color: var(--black);
+    font-weight: 700;
+  }
+  .alert-icon {
+    padding: 0 16px;
+    font-size: 2rem !important;
+    color: var(--primary);
+  }
+  .alert .alert-message p {
+    color: var(--black);
+    opacity: 1;
+  }
+  .alert.alert-primary {
+    background: var(--white);
+    color: var(--black);
+    border: 2px solid var(--primary) !important;
+  }
+
+  .alert.alert-secondary {
+    background: var(--muted-blue);
+    color: var(--white);
+    border: none !important;
+  }
+  .alert.alert-success {
+    background: var(--white);
+    color: var(--black);
+    border: 2px solid var(--sat-green) !important;
+  }
+  .alert.alert-primary .alert-icon {
+    color: var(--primary);
+  }
+  .alert.alert-error {
+    background: var(--tangerine);
+    color: var(--white);
+    font-weight:700;
+    border: none !important;
+  }
+  .alert.alert-error .alert-icon {
+    color: var(--white);
+  }
+  .alert.alert-success .alert-icon {
+    color: var(--sat-green);
+  }
+  .alert.alert-secondary .alert-icon {
+    color: var(--white);
+  }
+  .alert.alert-primary .alert-message,.alert.alert-secondary .alert-message, .alert.alert-success .alert-message   {
+    color: var(--black) ;
+  }
+ 

@@ -1,0 +1,129 @@
+.stat-chart{
+    box-shadow: var(--shadow-2);
+    border-radius: 8px !important;
+    min-height: 180px !important;
+    text-align: center;
+    font-family: var(--font-family-sec);
+}
+.stat-chart-icon{
+    box-shadow: var(--shadow-2);
+    border-radius: 8px !important;
+    min-height: 180px !important;
+}
+
+.stat-chart-primary{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background: var(--rosso);
+}
+.stat-chart-primary:hover{
+    color: var(--rosso);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--rosso);
+}
+.stat-chart-primary-outline:hover{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background: var(--rosso);
+}
+.stat-chart-primary-outline{
+    color: var(--rosso);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--rosso);
+}
+.stat-chart-warning{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background: var(--apricot);
+}
+.stat-chart-warning:hover{
+    color: var(--apricot);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--apricot);
+}
+.stat-chart-warning-outline:hover{
+    border: 2px solid var(--white);
+    color: var(--black);
+    background: var(--apricot);
+}
+.stat-chart-warning-outline{
+    color: var(--black);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--apricot);
+}
+.stat-chart-success{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background: var(--shamrock);
+}
+.stat-chart-success:hover{
+    color: var(--shamrock);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--shamrock);
+}
+
+.stat-chart-success-outline:hover{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background: var(--shamrock);
+}
+.stat-chart-success-outline{
+    color: var(--shamrock);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--shamrock);
+}
+
+
+.stat-chart-dark{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background: var(--navy-blue);
+}
+.stat-chart-dark:hover{
+    color: var(--black);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--navy-blue);
+}
+.stat-chart-dark-outline:hover{
+    border: 2px solid var(--navy-blue);
+    color: var(--navy-blue);
+    background: var(--white);
+}
+.stat-chart-dark-outline{
+    color: var(--navy-blue);
+    background: var(--white);
+    cursor:pointer;
+    border-color: var(--navy-blue);
+}
+.stat-chart-title{
+    font-family: var(--font-family-sec-bold);
+    font-size: 40px;
+    font-weight: 600;
+}
+.stat-chart-icon{
+    font-family: var(--font-family-sec-bold);
+    font-size: 44px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.stat-chart-subtitle{
+    font-family: var(--font-family-sec-medium);
+    font-size:20px;
+    font-weight: 600;
+}
+.stat-chart-text{
+    font-family: var(--font-family-sec-bold);
+    font-size:12px;
+
+}
+.stat-chart-text-lg{
+    font-family: var(--font-family-sec-bold);
+    font-size:16px;
+}
